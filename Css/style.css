@@ -7,6 +7,7 @@
 .header{
     display: flex;
     justify-content: center;
+    height: 34rem;
 }
 .imgIntro img{
     border-radius: 50%;
@@ -30,14 +31,14 @@
     width: 50%;
 }
 .prgIntro h1{
-    font-size: 3.2rem;
+    font-size: 3em;
     font-family: 'Montserrat', sans-serif;
     padding: 1.5rem 0 ;
     color: rgb(98, 96, 96);
 }
 .prgIntro p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-right: 15rem;
     padding-right: 3rem;
     padding-bottom: 2rem;
@@ -56,4 +57,73 @@ button{
     -moz-border-radius: 10rem;
     -ms-border-radius: 10rem;
     -o-border-radius: 10rem;
+}
+.about{
+    height: 44rem;
+    background-color: rgb(235, 235, 235);
+}
+.first-line{
+    position: relative;
+    top: 4.5rem;
+    border-color: rgb(120, 120, 120);
+}
+.description{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2.6rem 42rem;
+    color: rgb(120, 120, 120) ;
+}
+hr{
+    width: 6rem;
+    /* border-color: #000; */
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+    padding-top: 6rem;
+    font: 2.5rem 'Montserrat', sans-serif;
+    color: rgb(101, 101, 101);
+}
+.linethroue{
+    width: 45.6rem;
+    position: absolute;
+    z-index: 0;
+    margin: 5.2rem 0 0 36.7rem;
+    border-color: rgb(120, 120, 120);
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    position: relative;
+    z-index:1;
+    margin-top: 2rem;
+}
+ul i{
+    padding-left: 0;
+    color: rgb(101, 101, 101);
+    font-size: 2.5rem;
+    border:0.1rem solid rgb(120, 120, 120);
+    padding: 2rem;
+    border-radius: 50%;
+    margin:0 3rem;
+    background-color: rgb(235, 235, 235) ;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.descText{
+    font-size: 1.5rem;
+    padding: 3rem 30rem;
+    color: rgb(120, 120, 120) ;
+    text-align: center;
+}
+.det-button{
+    position: absolute;
+    left: calc(50% - 5rem);
+}
+.about button{
+    margin: 0 auto;
 }
