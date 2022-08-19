@@ -70,12 +70,11 @@ button{
 .description{
     text-align: center;
     font-size: 1.5rem;
-    padding: 2.6rem 42rem;
+    padding: 2rem 42rem;
     color: rgb(120, 120, 120) ;
 }
 hr{
     width: 6rem;
-    /* border-color: #000; */
     margin: 0 auto;
 }
 h2{
@@ -126,4 +125,58 @@ ul i{
 }
 .about button{
     margin: 0 auto;
+}
+.row-revers{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 75rem;
+    margin: 3.5rem auto;
+}
+.row{
+    display: flex;
+    flex-direction: row; 
+    width: 75rem;
+    margin: auto;
+}
+.services img{
+    height: 27rem;
+    width: 36rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.services p{
+    line-height: 2rem;
+    font-size: 1.5rem; 
+    color: rgb(120, 120, 120);
+}
+.services h3{
+    padding: 1rem 0;
+    font: 2rem 'Montserrat', sans-serif;
+    color:  rgb(99, 99, 99);
+}
+.title-line{
+    margin: 0;
+    border-color: rgb(185, 185, 185) ;
+    margin-bottom: 1rem;
+}
+.row .title-line{
+    margin-left: 3rem;
+}
+.row p ,.row h3,.row button{
+    margin-left:3rem; 
+}
+.row p, .row-revers p{
+    margin-right: 2rem;
+    padding: 1.5rem 0;
+}
+.row button ,.row-revers button{
+    width: 7.3rem;
+    margin-top: 1rem;
+}
+.services .descText{
+    margin: 2rem 20rem;
+    padding: 0  4rem;
 }
