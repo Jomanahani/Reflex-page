@@ -102,9 +102,9 @@ ul{
 ul i{
     padding-left: 0;
     color: rgb(101, 101, 101);
-    font-size: 2.5rem;
+    font-size: 2rem;
     border:0.1rem solid rgb(120, 120, 120);
-    padding: 2rem;
+    padding: 1.6rem;
     border-radius: 50%;
     margin:0 3rem;
     background-color: rgb(235, 235, 235) ;
@@ -203,4 +203,80 @@ ul i{
     color:aliceblue;
     margin: 1.5rem 0;
     border-color: aliceblue;
+}
+footer{
+    background-color: rgb(235, 235, 235);
+}
+footer ul{
+    justify-content: flex-start;
+    margin: 1rem 2rem;
+}
+footer i{
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    margin: 1rem 0.5rem;
+}
+footer .row{
+    padding-top: 3rem;
+    width: 90rem;
+}
+footer h3{
+    padding-top: 3rem ;
+    padding-bottom: 1.5rem;
+    font: 2rem 'Montserrat', sans-serif ;
+    color: rgb(92, 90, 90);
+}
+.row p{
+    font: 1.3rem 'Montserrat', sans-serif ;
+    line-height: 2rem;
+    color:rgb(120, 120, 120) ;
+    text-align:justify;
+}
+.ref{
+    width: 45rem;
+}
+.form{
+    width: 45rem;
+}
+.ref hr{
+    margin: 2rem 3rem;
+    width: 5rem;
+}
+footer form{
+    padding:4rem 3rem;
+}
+footer input{
+    font: 1rem 'Montserrat', sans-serif ;
+    padding: 1rem;
+    margin: 1rem;
+    width: 15rem;
+    border-color: rgb(179, 178, 178);
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+}
+footer textarea{
+    font: 1rem 'Montserrat', sans-serif ;
+    padding: 1rem;
+    margin: 1rem;
+    width: 32rem;
+    height: 12rem;
+    border-color: rgb(179, 178, 178);
+    border-radius: 0.7rem;
+}
+.form button{
+    width: 11rem;
+    margin: 1rem ;
+}
+footer hr{
+    margin: 2rem auto;
+}
+footer p{
+    color: rgb(183, 183, 183);
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom:4.5rem;
+
 }
